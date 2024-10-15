@@ -1,10 +1,6 @@
+#circumference of a circle
 import math
-#pi 
+radius = float(input("What is the radius?: "))
 pi = math.pi
-#square root
-root = math.sqrt(16)
-#round up
-ceiling = math.ceil(9.2)
-#round down
-floor = math.floor(9.7)
-print(floor)
+circumference = 2 * pi * radius
+print(f"The circumference of your circle is {circumference}")
