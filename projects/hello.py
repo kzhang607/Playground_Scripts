@@ -1,6 +1,9 @@
-#hypotenuse of a circle
-import math 
-a = float(input("What is the value of a: "))
-b = float(input("What is the value of b: "))
-hypotenuse = math.sqrt(pow(a,2) + pow(b,2))
-print(f"The hypotenuse of the circle is {round(hypotenuse, 3)}")
+#if statements
+age = int(input("Enter your age: "))
+if (age >= 18):
+    print("You can open a credit card")
+elif (age < 0):
+    print("you're trollin")
+else:    
+    print("You cannot open a credit card")
+
