@@ -1,5 +1,6 @@
-#area of a circle
-import math
-radius = float(input("What is the radius: "))
-area = math.pi * pow(radius, 2)
-print(f"The area of the circle is {round(area,3)}")
+#hypotenuse of a circle
+import math 
+a = float(input("What is the value of a: "))
+b = float(input("What is the value of b: "))
+hypotenuse = math.sqrt(pow(a,2) + pow(b,2))
+print(f"The hypotenuse of the circle is {round(hypotenuse, 3)}")
