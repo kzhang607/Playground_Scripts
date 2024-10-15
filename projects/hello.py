@@ -1,7 +1,6 @@
-name = input("What is your name: ")
-age = int(input("What is your age: "))
-
-age = age + 1
-
-print(f"Hello {name}")
-print(f"Happy birthday! You are {age} years old")
+adjective = input("Enter an adjective: ")
+noun = input("Enter a noun: ")
+adjective2 = input("Enter an adjective: ")
+verb = input("Enter a past tense verb: ")
+verb2 = input("Enter a past tense verb: ")
+print(f"Today I went to a {adjective} zoo. The zoo had a {noun} and it was so {adjective2}. It {verb} and {verb2}.")
