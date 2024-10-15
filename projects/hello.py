@@ -1,19 +1,11 @@
-#calculator program
-operator = input("Please select an operator(+,-,*,/): ")
-number_1 = float(input("Please enter your first number: "))
-number_2 = float(input("Please enter your second number: "))
-if operator == "+":
-    final_number = number_1 + number_2
-    print(f"Your calculation is: {round(final_number,3)}")
-elif operator == "-":
-    final_number = round(number_1-number_2, 3)
-    print(f"Your calculation is: {round(final_number,3)}")
-elif operator == "*":
-    final_number = round(number_1*number_2, 3)
-    print(f"Your calculation is: {round(final_number,3)}")
-elif operator == "/":
-    final_number = round(number_1/number_2, 3)
-    print(f"Your calculation is: {round(final_number,3)}")
+#weight converter
+weight = float(input("Enter your weight: "))
+unit = (input("What is your unit of measurement?(lb/kg): "))
+if unit == "kg":
+    weight = weight * 2.205
+    print(f"Your weight in lbs is {round(weight, 3)}")
+elif unit == "lb":
+    weight = weight / 2.205
+    print(f"Your weight in kgs is {round(weight, 3)}")
 else:
-    print(f"Your {operator} is not a valid operator and neither are you")
-
+    print(f"Your unit of {unit} is not valid.")
